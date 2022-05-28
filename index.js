@@ -6,8 +6,8 @@
 const arrColorMonica = ["Yellow", "Pink", "White", "Purple"];
 const arrRestoMonica = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]; 
 
-let setColorMonica = [...new Set(arrColorMonica)];
-let setRestoMonica = [...new Set(arrRestoMonica)];
+const setColorMonica = [...new Set(arrColorMonica)];
+const setRestoMonica = [...new Set(arrRestoMonica)];
 
 const educationMonica = [
     { name: "SD 01", city: "Jakarta", graduate: "2016" },
@@ -19,8 +19,8 @@ const educationMonica = [
 const arrColorWendy = ["Blue", "Black", "Grey"];
 const arrRestoWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]; 
 
-let setColorWendy = [...new Set(arrColorWendy)];
-let setRestoWendy = [...new Set(arrRestoWendy)];
+const setColorWendy = [...new Set(arrColorWendy)];
+const setRestoWendy = [...new Set(arrRestoWendy)];
 
 
 const educationWendy = [
